@@ -1,4 +1,4 @@
-import "./styles.css";
+
 
 /* toString & toNumber */
 function Temperature(degress) {
