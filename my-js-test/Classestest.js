@@ -48,8 +48,8 @@ usernew1.print();
 usernew2.print();
 
 // for (const pr in userold1) console.log(`USR->${pr}:${userold1[pr]}`);
-window.onload = () => {
-document.getElementById("app").innerHTML = `
+// window.onload = () => {
+document.getElementById("app").innerHTML += `
 <h1>Classes test</h1>
 <h3>old style</h3>
 <ul>
@@ -62,4 +62,5 @@ document.getElementById("app").innerHTML = `
   <li><code>${usernew2.print()}</code></li>
 </ul>
 `;
-} 
+
+// } 

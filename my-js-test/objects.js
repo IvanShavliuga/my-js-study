@@ -31,8 +31,8 @@ console.log(+Person1);
 console.log(+Person2);
 
 console.log(Person1 > Person2);
-
-document.getElementById("app").innerHTML = `
+// window.onload = () => {
+document.getElementById("app").innerHTML += `
 <h3>Object Person</h3>
 <pre>
 const Person = {
@@ -72,7 +72,7 @@ console.log(+Person2); // = ${+Person2}
 console.log(Person1 > Person2) // = ${Person1 > Person2}
 </pre>
 `;
-
+// } 
 /* let bncode = 0b1010;
 console.log(bncode.toString(2));
 console.log((bncode << 1).toString(2));
