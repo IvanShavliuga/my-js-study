@@ -1,0 +1,10 @@
+ul {
+  border: 1px solid grey;
+  background-color:cadetblue;
+  margin: 2px 7px;
+}
+li {
+  list-style: '@';
+  color:white;
+  font-weight: bold;
+}

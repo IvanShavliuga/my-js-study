@@ -10,7 +10,7 @@ Userold.prototype.raiseSalary = function (percent) {
 };
 
 Userold.prototype.print = function () {
-  return `@${this.name} (${this.age}) -> ${this.salary.toFixed(3)}`;
+  return `${this.name} (${this.age}) -> ${this.salary.toFixed(3)}`;
 };
 
 const userold1 = new Userold("nunex", 18, 30);
@@ -34,7 +34,7 @@ class Employee {
     this.salary *= 1 + precent / 100;
   }
   print() {
-    return `@${this.name} (${this.age}) -> ${this.salary.toFixed(3)}`;
+    return `${this.name} (${this.age}) -> ${this.salary.toFixed(3)}`;
   }
 }
 
@@ -48,6 +48,7 @@ usernew1.print();
 usernew2.print();
 
 // for (const pr in userold1) console.log(`USR->${pr}:${userold1[pr]}`);
+window.onload = () => {
 document.getElementById("app").innerHTML = `
 <h1>Classes test</h1>
 <h3>old style</h3>
@@ -61,3 +62,4 @@ document.getElementById("app").innerHTML = `
   <li><code>${usernew2.print()}</code></li>
 </ul>
 `;
+} 
