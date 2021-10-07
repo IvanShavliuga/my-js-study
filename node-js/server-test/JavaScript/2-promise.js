@@ -38,7 +38,7 @@ promise5.then(console.log).catch(console.log); // Error...
 
 // Example with I/O
 
-const fs = require('fs');
+/* const fs = require('fs');
 
 const readFile = (filename, encoding) =>
   new Promise((resolve, reject) =>
@@ -59,3 +59,4 @@ readFile('file1.txt', 'utf8')
   .then(data => {
     console.log(data);
   });
+*/
