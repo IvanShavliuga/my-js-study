@@ -1,7 +1,4 @@
-
-
 console.log('Import works!')
-
 function countdown(s) {
   let up=s;
   console.log('start countdown')
